@@ -1,0 +1,26 @@
+TA4 - KNOWLEDGE REPRESENTATION AND REASONING
+Use case: planning activities in changing weather
+
+INPUT - Knowledge Base (6 facts / 3 categories)
+  temperature:
+    temperature: 32
+  weather:
+    humidity: 85
+    is_raining: True
+    wind_speed: 12
+  activity_context:
+    is_daytime: True
+    outdoor_activity: True
+
+PROCESS - Rule-Based Reasoning
+  rule_hot: FIRED
+  rule_rain: FIRED
+  rule_humid_heat: FIRED
+  rule_wind: not fired
+  rule_outdoor_rain: FIRED
+
+OUTPUT - Rule-Based Reasoning Actions:
+- Turn on a fan or air conditioner.
+- Bring an umbrella.
+- Drink water and take breaks from the heat.
+- Move the outdoor activity indoors.
