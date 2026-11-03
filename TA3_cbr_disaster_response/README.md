@@ -14,6 +14,7 @@ This is an educational demonstration. Its sample recommendations are not operati
 cbr-disaster-response-github/
 ├── README.md
 ├── .gitignore
+├── TA3 Technical Assesment.pdf
 ├── docs/
 │   └── sample_execution.png
 └── src/
