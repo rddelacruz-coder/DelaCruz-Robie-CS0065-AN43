@@ -72,8 +72,7 @@ The sample below enters a flood with severity 5, 1,400 people affected, and limi
 
 ## Pair reflection
 
-Dela Cruz, Robie
-Santos, Taysian
+Dela Cruz, Santos
 
 Our pair divided the work by having one member organize the disaster cases and similarity scoring while the other developed the adaptation rules and console output. We reviewed the program together to check whether the retrieved case fit the new event and whether the recommended changes followed the input conditions. One challenge was deciding how to compare categories such as hazard type with numerical values such as severity and affected population. We addressed this by assigning weights to each attribute and normalizing the numerical comparisons. We also had to make sure the response changed when the event was more severe, affected more people, or had limited resources. This activity helped us understand how a CBR program reuses prior experience and retains new cases for later decisions.
 
